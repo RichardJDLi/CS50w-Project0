@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+
+            a {
+                float: right;
+            }
+
+            #search {
+                
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <div class = "nondefault-search">
+            <a href="imageSearch.html">Google Image Search</a>
+            <br>
+        <a href="advancedSearch.html">Google advanced Search</a>
+        </div>
+
+        <div id="default-search">
+            <img src="googleLogo.png" alt="Google Logo" width="292" length="92">
+            <form action="https://www.google.com/search">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
+            
+    </body>
+</html>
